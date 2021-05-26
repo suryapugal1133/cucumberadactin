@@ -1,0 +1,11 @@
+Feature: Login functionality for adaction application
+
+Scenario: User enter url of adaction application
+   Given User enter url of adaction application
+   When User enter "vinovicky" as username 
+   And User enter "Jan@2020" as password
+   And User click login button
+   Then  User validate login button
+   
+
+
